@@ -275,23 +275,25 @@ label span{
     max-width: 900px;
     margin-bottom: 2em;
     transition: 2000ms;
+    color: white;
+    background-color: black;
 }
 
-.whyus__collapes {
+/* .whyus__collapes {
     width: 90%;
-}
+} */
 
-.whyUs {
+/* .whyUs {
   background-color: white;
-}
+} */
 
-.whyUs__img--rounded {
+/* .whyUs__img--rounded {
   border-radius: 0px 5px 5px 0px;
-}
+} */
 /* why us section - end */
 
 /* footer - start */
-.footer {
+/* .footer {
     background-color: #343a40;
     color: white;
     padding: 1em;
@@ -301,15 +303,33 @@ label span{
     height: 10vh;
     text-align: center;
     flex-wrap: wrap;
-}
+} */
 
-.footer p {
+/* .footer p {
     margin: 0px;
     padding-top: 0.5em;
     text-align: center;
-}
+} */
 /* footer - end */
+.first__clomn{
+  border: rgb(255,255,255) solid 1px;
+  width: 60%;
+}
+.final-footer{
+  
+  border: rgb(255,255,255) solid 1px;
+  width: 60%;
+  margin: auto;
+  margin-top: 2em;
+}
 
+.footer__between ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none !important;
+  color: white !important;
+}
 /* index.html page - start */
 
 
@@ -385,7 +405,7 @@ body {
   .slider__btns {
     margin-top: 0.3em;
   }
-  .footer {
+  /* .footer {
     background-color: #343a40;
     color: white;
     padding: 1em;
@@ -401,11 +421,11 @@ body {
     margin: 0px;
     padding: 1.5em;
     text-align: center;
-  }
+  } */
 
-  .whyUs__img--rounded {
+  /* .whyUs__img--rounded {
     border-radius: 0px 0px 5px 5px;
-  }
+  } */
 
   .modal__leftSide {
     padding: 1em;
@@ -456,9 +476,9 @@ body {
 }
 /*  -----  Large  -----  */
 @media screen and (max-width: 960px) {
-  .whyUs__img--rounded {
+  /* .whyUs__img--rounded {
     border-radius: 0px 0px 5px 5px;
-  }
+  } */
   .modal__leftSide {
     padding: 1em;
     /* border-bottom: gray solid 1px; */
@@ -478,9 +498,9 @@ body {
 
 /*  -----  Small  -----  */
 @media screen and (max-width: 576px) {
-  .whyUs__img--rounded {
+  /* .whyUs__img--rounded {
     border-radius: 0px 0px 5px 5px;
-  }
+  } */
   .modal__leftSide {
     padding: 1em;
     margin: 0.1em;
