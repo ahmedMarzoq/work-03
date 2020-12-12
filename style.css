@@ -47,6 +47,10 @@
   line-height: 2em;
 }
 
+.card-local{
+  background-color: black;
+}
+
 @keyframes slideInFromBottom {
     0% {
       transform: translateY(-10%);
