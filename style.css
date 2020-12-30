@@ -1,6 +1,10 @@
 /* general for entire page - start */
+@font-face {
+  font-family: Freight;
+  src: url(fonts/Freight-Big-Bold.otf);
+}
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Freight', sans-serif;
   
 }
 
@@ -22,6 +26,11 @@
 .navbar .nav-link {
     margin-right: 3em;
 }
+.navbar-brand{
+  display: flex !important;
+  justify-content: center !important;
+}
+
 
 /* .navbar-nav li.active > a {
     border-bottom: 5px solid #feca5c;
@@ -46,9 +55,12 @@
 .line{
   line-height: 2em;
 }
-
+.card{
+  background-color: rgb(0, 0, 0);
+}
 .card-local{
   background-color: black;
+  border: 0;
 }
 
 @keyframes slideInFromBottom {
@@ -201,12 +213,12 @@
     font-size: 1.5em;
 }
 
-.slider__button--primary {
+/* .slider__button--primary {
     background-color: white;
     height: 80;
     width: 278;
     color: black;
-}
+} */
 
 .slider__button--regular {
     background-color: rgba(0, 0, 0, 0);
@@ -278,6 +290,10 @@ label span{
     color: white;
     background-color: black;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+  opacity: 1; /* Firefox */
+}
 
 /* .whyus__collapes {
     width: 90%;
@@ -310,6 +326,10 @@ label span{
     padding-top: 0.5em;
     text-align: center;
 } */
+
+.footer-a{
+  color: white;
+}
 /* footer - end */
 .first__clomn{
   border: rgb(255,255,255) solid 1px;
@@ -331,8 +351,13 @@ label span{
   color: white !important;
 }
 /* index.html page - start */
-
-
+.input{
+  background-color: black;
+}
+#inputName{
+  background-color: black;
+  color: white;
+}
 /* store.html page - start */
 .store__button--primary {
     background-color: #feca5c;
