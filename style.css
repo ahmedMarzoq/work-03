@@ -1,7 +1,7 @@
 /* general for entire page - start */
 @font-face {
   font-family: Freight;
-  src: url(fonts/Freight-Big-Bold.otf);
+  src: url(fonts/Freight-Big-Book.otf);
 }
 * {
   font-family: 'Freight', sans-serif;
