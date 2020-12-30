@@ -3,6 +3,10 @@
   font-family: Freight;
   src: url(fonts/Freight-Big-Book.otf);
 }
+@font-face {
+  font-family: cour;
+  src: url(fonts/cour.ttf);
+}
 * {
   font-family: 'Freight', sans-serif;
   letter-spacing: .2em;
@@ -15,6 +19,7 @@
 .navbar {
     font-size: 1.2em;
     background-color: black !important;
+    text-align: center !important;
 }
 .navbar-private{
   display: block !important;
@@ -22,11 +27,26 @@
   color: white;
 }
 
+.navbar-dark{
+  background-color: black  !important;
+}
 
-
-/* .navbar-nav li.active > a {
-    border-bottom: 5px solid #feca5c;
-} */
+.navbar-c{
+    text-align: center !important;
+    margin: auto;
+    font-family: 'cour', sans-serif !important;
+}
+.navbar-nav{
+  text-align: center !important;
+  margin: auto;
+}
+.t{
+    text-align: center !important;
+    border-style: none !important;
+    font-size: 1em !important;
+    font-family: 'cour', sans-serif !important;
+    margin: auto;
+}
 /* navbar - end */
 
 .service-img{
