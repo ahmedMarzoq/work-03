@@ -16,21 +16,12 @@
     font-size: 1.2em;
     background-color: black !important;
 }
-
-.navbar .navbar-nav {
-    margin: 0 auto;
-}
-#nav-link-right {
-    margin-right: 0;
+.navbar-private{
+  display: block !important;
+  text-align: center !important;
+  color: white;
 }
 
-.navbar .nav-link {
-    margin-right: 3em;
-}
-.navbar-brand{
-  display: flex !important;
-  justify-content: center !important;
-}
 
 
 /* .navbar-nav li.active > a {
@@ -38,6 +29,11 @@
 } */
 /* navbar - end */
 
+.service-img{
+  width: 80%;
+  display: flex;
+  justify-self: center;
+}
 
 /* topics of sections style -start */
 .main--text {
