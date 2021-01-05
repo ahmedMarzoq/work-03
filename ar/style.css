@@ -410,7 +410,9 @@ body {
 }
 /* store.html page - start */
 
-
+.slider__btns{
+  font-size: 1vw;
+}
 
 /*  -----  Medium ≥768px -----  */
 @media screen and (max-width: 768px) {
@@ -501,6 +503,7 @@ body {
     transform: translateY(-50%);
     padding: 5em;
   }
+  
 }
 
 .modal__leftSide {
@@ -538,6 +541,9 @@ body {
     transform: translateY(-50%);
     padding: 0.5em;
   }
+  .slider__btns{
+    font-size: 1vw;
+  }
 }
 
 /*  -----  Small  -----  */
@@ -569,10 +575,11 @@ body {
     font-size: 0.08vw;
     min-height: 35vh;
   }
+  .slider__btns{
+    font-size: 4vw;
+  }
 }
-.slider__btns{
-  font-size: 4vw;
-}
+
 
 #main__content {
   min-height: 83vh;

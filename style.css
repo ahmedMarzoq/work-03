@@ -575,10 +575,11 @@ body {
     .h3-res{
       font-size: 1.3em;
     }
+    .slider__btns{
+      font-size: 4vw;
+    }
 }
-.slider__btns{
-  font-size: 4vw;
-}
+
 
 #main__content {
   min-height: 83vh;
