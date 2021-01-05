@@ -25,6 +25,7 @@
   display: block !important;
   text-align: center !important;
   color: white;
+  text-decoration: none;
 }
 
 .navbar-dark{
@@ -567,11 +568,22 @@ body {
     align-items: center;
     font-size: 0.08vw;
     min-height: 45vh;
+  }
 }
 .slider__btns{
   font-size: 4vw;
 }
-}
+
 #main__content {
   min-height: 83vh;
+}
+
+.navbar-private-res:hover{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+  color: white ;
 }

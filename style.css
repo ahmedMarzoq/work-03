@@ -30,7 +30,7 @@
 
 a:hover{
   text-decoration: none !important;
-  color: white !important;
+  color: white;
 }
 
 .navbar-dark{
@@ -579,7 +579,7 @@ body {
 .slider__btns{
   font-size: 4vw;
 }
-}
+
 #main__content {
   min-height: 83vh;
 }
